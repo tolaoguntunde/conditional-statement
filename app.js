@@ -21,7 +21,11 @@
 // if (randomNum % 2  === 0) {
 //     console.log(`Your number ${randomNum} is even`)
 // }
+
 // =============================Assignment==================//
+
+// Question 1
+
 let a = prompt("Enter first argument");
 let b = prompt("Enter second argument");
 if (a !== b) {
@@ -33,6 +37,7 @@ if (a !== b) {
 let speedValue = prompt("Enter your speed");
 let speedLimitValue = prompt("Enter your speed limit");
 
+// Question 2
 
 function speedChecker(speed, speedLimit) {
     if (speed >= speedLimit) {
@@ -44,6 +49,7 @@ function speedChecker(speed, speedLimit) {
 
 speedChecker(speedValue, speedLimitValue)
 
+// Question 3
 
 function countSpoons(){
     let count = 10;
@@ -61,6 +67,8 @@ function countSpoons(){
 
 countSpoons()
 
+// Question 4
+
 hourValue=prompt("Enter number of hours:");
 function officeHours(hour){
     if (hour < 10 || hour > 10 ) {
@@ -72,10 +80,10 @@ function officeHours(hour){
 
 officeHours(hourValue)
 
+// Question 5
 
 let hourOpenValue=prompt("Enter hours of operation");
-let checkWeekend = prompt("is it weekend - True /false");
-checkWeekend = Boolean(checkWeekend);
+checkWeekend = true ;
 function isOfficeOpen(hour,isWeekend){
 if (hour < 10 || hour > 18 || isWeekend === true) {
     alert("The office is closed")
@@ -83,6 +91,8 @@ if (hour < 10 || hour > 18 || isWeekend === true) {
 }
 
 isOfficeOpen(hourOpenValue,checkWeekend)
+
+// Question 6
 
 function leavingTime(){
     let hour = 12;
@@ -94,6 +104,9 @@ function leavingTime(){
     }
 }
 leavingTime()
+
+
+//Question 7
 
 function pickBook(){
     let book = "maths";
@@ -109,6 +122,9 @@ function pickBook(){
     }
 }
 pickBook()
+
+
+// Question 8
 
 ageValue = prompt("Enter you age:");
 function checkEligibility(age){
