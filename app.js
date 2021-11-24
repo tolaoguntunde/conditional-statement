@@ -174,23 +174,36 @@
 //     return name[ranName]
 // }
 
-let myArray = [];
-let count = 1 ;
+// let myArray = [];
+// let count = 1 ;
 
-function arrayGen(){
+// function arrayGen(){
 
-  if (count % 3 === 0) {
-    myArray.push("Fizz")
-  }else if(count % 5 === 0) {
-    myArray.push("Buzz")
-  }else if(count % 3 === 0 && count % 5 === 0) {
-    myArray.push("FiZZBuzz")
+//   if (count % 3 === 0) {
+//     myArray.push("Fizz")
+//   }else if(count % 5 === 0) {
+//     myArray.push("Buzz")
+//   }else if(count % 3 === 0 && count % 5 === 0) {
+//     myArray.push("FiZZBuzz")
  
  
-  }
-  else {
-    myArray.push(count);
-  }
-  count++ ;
-  return myArray;
+//   }
+//   else {
+//     myArray.push(count);
+//   }
+//   count++ ;
+//   return myArray;
+// }
+
+// const str = "apple";
+// const fruit =str.split('');
+// let myFruit=fruit.reverse();
+// console.log(myFruit.join(''));
+
+
+function reverse(str){
+  const fruit =str.split('');
+  let myFruit=fruit.reverse();
+  return myFruit.join('');
 }
+
