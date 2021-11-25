@@ -3,19 +3,18 @@
 
 // // Question 1
 
-let a = prompt("Enter first argument");
-let b = prompt("Enter second argument");
+function compareValues(a,b){
 if (a !== b) {
     alert("The values are not equal")
 } else {
     alert("They are equal")
 }
-
-let speedValue = prompt("Enter your speed");
-let speedLimitValue = prompt("Enter your speed limit");
+}
 
 // // // Question 2
 
+let speedValue = prompt("Enter your speed");
+let speedLimitValue = prompt("Enter your speed limit");
 function speedChecker(speed, speedLimit) {
     if (speed >= speedLimit) {
         alert("Yes, you are speeding")
